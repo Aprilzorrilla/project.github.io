@@ -1,0 +1,309 @@
+/* Main Settings*/
+
+:root {
+    --color-primary: rgb(255, 255, 255);
+    --color-secondary: rgb(54, 132, 235);
+    --color-btn-: rgb(38, 215, 255);
+    --header-tittle: Gabarito;
+    --header-subt: Andada Pro;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito";
+}
+
+.gabarito-uniquifier> {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.andada-pro-uniquifier {
+    font-family: "Andada Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*Header*/
+
+header {
+    background-image: url('../Recursos/images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: var(--color-primary);
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px;
+    color: var(--color-primary);
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--color-primary);
+}
+
+
+nav ul li a:hover {
+    color: var(--color-secondary);
+}
+
+.selected {
+    color: var(--color-secondary);
+}
+
+.header-container {
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    height: 850px;
+}
+
+.header-content-text {
+    max-width: 500px;
+    margin: 55px;
+    padding-top: 122.4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-container {
+    height: 35px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: var(--color-btn-);
+    color: var(--color-primary);
+    border: 1px solid var(--color-btn-);
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.button-container a:hover {
+    background-color: rgb(8, 114, 196);
+    border-color: rgb(8, 114, 196);
+
+}
+
+.header-tittle {
+    font-size: 60px;
+    font-family: var(--header-tittle);
+}
+
+.icon {
+    margin: 5px;
+}
+
+.iconsearch {
+    margin-top: 21px;
+}
+
+nav ul a i {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+nav ul li a i:hover {
+    color: var(--color-secondary);
+}
+
+nav ul a i:hover {
+    color: var(--color-secondary);
+}
+
+
+.menu-mobile {
+    margin-left: 15px;
+    margin-top: 19px;
+    display: none;
+}
+
+
+/*end header*/
+
+/*section CARDS*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.services h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: var(--header-tittle);
+    font-size: 50px;
+}
+
+.pservices {
+    text-align: center;
+    margin: 10px;
+    font-family: var(--header-subt);
+}
+
+.button--center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 100px;
+
+}
+
+
+.card {
+    background-color: rgb(234, 234, 234);
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 20px;
+    font-family: var(--header-tittle);
+}
+
+.card p {
+    margin: 20px;
+    font-family: var(--header-subt);
+}
+
+.card a {
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.card a:hover {
+    color: var(--color-secondary)
+}
+
+/* ABOUT US */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Recursos/images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-primary);
+
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: var(--header-tittle);
+    font-size: 50px;
+}
+
+.pabout {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: var(--header-subt);
+    font-size: 20px;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-about {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+
+.abouttext {
+    font-family: var(--header-subt);
+    width: 700px;
+    height: 500px;
+    margin: 20px;
+    padding-top: 70px;
+    padding-left: 50px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.header-content-tex {
+    padding-top: 100px;
+}
+
+
+/* WHY CHOOSE US */
+
+.why {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.why h2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: var(--header-tittle);
+    font-size: 40px;
+}
+
+.img-choose {
+    text-align: center;
+    
+}
+
+.img-choose img {
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.why h3 {
+    margin: 25px;
+    font-family: var(--header-tittle);
+    font-size: 40px;
+}
+
+.why p {
+    margin: auto;
+    width: 1100px;
+    height: 100px;
+    font-family: var(--header-subt);
+}
+
+/* OUR TEAM */
+
